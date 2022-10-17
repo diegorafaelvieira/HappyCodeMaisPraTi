@@ -1,0 +1,147 @@
+
+body {
+
+	/* background */
+	text-align: center;
+	background-color: #3a1772;
+	/*background-color: #f2e7dc;*/
+	
+	/* texto */
+	color:lightcyan;
+	font-family: Roboto;
+	font-size: 16px;	
+
+	/* alinhamento e tamanho */
+	width: 85%;
+	margin: auto;
+}
+
+section {
+	padding-left: 256px;
+	padding-right: 256px;
+	padding-bottom: 64px;
+	padding-top: 64px;
+}
+
+#topo {
+	background-color: #038c7f;
+	color: #f2e7dc;
+	padding-top: 20px;
+	margin-bottom: 0px;
+}
+
+#sumario {
+	background-color: #038c7f;
+	color: #f2e7dc;
+	padding: 20px;
+	margin-top: -40px;
+	margin-bottom: 50px;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+
+.tituloL {
+	background-color: #174f72;
+	color: #cdf25d;
+	text-align: center;
+	font-size:32px;
+}
+
+h1 {
+	color:#f2cd5d;
+	font-size: 60px;
+}	
+
+h2 {
+	color:#f2cd5d;
+	font-size:44px;
+}
+
+h3 {
+	color: #cdf25d;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+img {
+	width: 40%;
+	display: block;
+	margin: auto;
+	border-radius: 50px;
+}	
+
+
+/* Tabela */
+table {
+	margin: auto;
+}
+
+td {
+	background-color: #cdf25d;
+	color: black;
+}
+
+tr {
+	background-color: #174f72;
+}
+
+td, th {
+	/* borda */
+	border-width: 3px;
+	border-style: solid;
+	border-color: #f2e7dc;
+	border-radius: 10px;
+	text-align: center;
+	padding: 8px;
+}
+
+
+p {
+	text-align: justify;
+	text-indent: 50px; /* identação da primeira linha */
+}
+
+
+a {
+	color: #f2cd5d;
+}
+
+a:link {
+	color: #f2e7dc;
+}
+
+a:visited {
+	color: #95bfb8;
+}
+
+a:hover {
+	color: #025454;
+}
+
+a:active {
+	color: #0d0d0d;
+}
+
+span {
+	color:#f2cd5d;
+}
+
+ol {
+	text-align: center;
+	list-style-position: inside;
+}
+	
+
+#l1, #l3, #l5 {
+	background-color: #17723a;
+	border-radius: 50px;
+}
+
+
+/*
+	recriar código
+
+	modificar de forma que paragrafo fique centralizado e azul com o css externo
+*/
