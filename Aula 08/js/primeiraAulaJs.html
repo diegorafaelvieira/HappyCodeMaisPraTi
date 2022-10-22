@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Primeiros Programas JavaScript</title>
+
+	<script type="text/javascript" src="primeiroScript.js"></script>
+
+	<script type="text/javaScript">
+		function mudarParagrafo() {
+			document.getElementById("p1").innerHTML = "Este parágrafo foi Modificado"
+		}
+	</script> 
+</head>
+<body>
+
+	<p id="p1">Isto é um parágrafo</p>
+	<button type="button" onclick="mudarParagrafo()">Clique Aqui</button>
+
+	<p id="p2"></p>
+	<script type="text/javascript">
+		document.getElementById("p2").innerHTML = 5 + 6;
+	</script>
+
+	<p>Testando document.write() sozinho</p>
+	<script type="text/javascript">
+		document.write(5+6);
+	</script>
+
+	<p>Testando document.write() dentro de um botão</p>
+	<button type="button" onclick="document.write(5+6)">Clique Aqui</button>
+
+	<p>Testando window.alert()</p>
+	<script type="text/javascript">
+		window.alert(5+6);
+	</script>
+
+	<p>Testando console.log</p>
+	<script type="text/javascript">
+		console.log(5+6);
+	</script>
+
+	<script type="text/javascript">
+		document.write(1 + 2);
+		document.write(3 + 4);
+		document.write(5 + 6);
+
+
+		document.write(1 + 2); document.write(3 + 4); document.write(5 + 6);
+	</script>
+
+	<p>Testando SEM espaço em branco</p>
+	<script type="text/javascript">
+		document.write("Sem espaço");
+	</script>
+
+	<p>Testando COM espaço em branco</p>
+	<script type="text/javascript">
+		document.write( "COM espaço" );
+	</script>
+
+
+	<p>Valores Literais</p>
+	<script type="text/javascript">
+		document.write(100);
+		document.write(10.1);
+		document.write("Eu sou literal");
+		document.write('Eu também sou literal');
+	</script>
+
+	<p>Valores Variaveis</p>
+	<script type="text/javascript">
+		let numero1 = 15;
+
+		let numero2;
+		numero2 = 21;
+
+		(15 + 21) * 3;
+		(numero1 + numero2) * 3;
+	</script>
+
+	<p>Comentários</p>
+	<script type="text/javascript">
+		//comentário de uma linha
+
+		/* comentário com múltiplas linhas
+		let numero1 = 15;
+		let numero2;
+		numero2 = 21;
+		(15 + 21) * 3;
+		(numero1 + numero2) * 3; */
+
+	</script>
+
+	<p>Nomes e Identificadores</p>
+	<script type="text/javascript">
+		//iniciar com letras do alfabeto (a-z)
+		//pode iniciar com cifrão $
+		//pode iniciar com underline _
+
+		//não pode iniciar com números
+		//não pode hífen ou operadores aritméticos
+		//não pode pontuação e acentuação
+		//não pode ter espaçamento
+
+		let nome = "Ana";
+		let primeiro_nome = "Ana"; // usando Under Line
+		let primeiroNome = "Ana";
+
+		let primeironome = "Bento";
+
+		let PrimeiroNome = "Carol"; //Upper Camel Case
+		let primeiroNome2 = "Davi"; //Lower Camel Case
+	</script>
+
+</body>
+</html>
