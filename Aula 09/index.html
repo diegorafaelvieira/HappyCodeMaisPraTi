@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Desenvolvendo Java Script I</title>
+</head>
+<body>
+
+	<p id="teste"></p>
+
+
+	<script type="text/javascript">
+		let x = "5" + 2 + 3;
+		document.getElementById('teste').innerHTML = x;
+	</script>
+
+	<h2>Relembrar Window alert</h2>
+	<button onclick="clicou()">Clica aí</button>
+	<script type="text/javascript">
+		function clicou(){
+			window.alert("Você clicou");
+		}
+	</script>
+
+
+	<h2>Window alert com prompt</h2>
+	<button onclick="digiteNome()">Clica aí</button>
+	<script type="text/javascript">
+		function digiteNome(){
+			let nome = window.prompt("Digite seu nome:");
+			window.alert(`Olá ${nome}, você clicou! `);
+		}
+	</script>
+
+
+	<h2>Calculando Números</h2>
+	<button onclick="calcular()">Clica aí</button>
+	<script type="text/javascript">
+		function calcular(){
+			let num1 = Number(window.prompt("Digite o número 1:"));
+			let num2 = Number(window.prompt("Digite o número 2:"));
+			let num3 = Number(window.prompt("Digite o número 3:"));
+			let soma = num1 + num2 + num3;
+			window.alert(`A soma é ${soma} `); //crase
+		}
+	</script>
+
+
+	<h2>Calculando Números e exibir no HTML</h2>
+	<button onclick="calcular()">Clica aí</button>
+	<section id="res">
+		<p>O resultado é aqui</p>
+	</section>
+	<script type="text/javascript">
+		function calcular(){
+			let num1 = Number(window.prompt("Digite o número 1:"));
+			let num2 = Number(window.prompt("Digite o número 2:"));
+			let soma = num1 + num2;
+			
+			let resultado = window.document.getElementById("res");
+			resultado.innerHTML = `<p>O resultado é: ${soma} </p>`;
+		}
+	</script>
+
+
+	<h2>Calcular a média de um aluno</h2>
+	<button onclick="calcularMedia()">Calcular a média</button>
+	<section id="resMedia">
+		<p>O resultado é aqui</p>
+	</section>
+	<script type="text/javascript">
+		function calcularMedia(){
+			let nome = window.prompt("Digite o seu nome:");
+			let nota1 = Number(window.prompt("Digite a nota 1:"));
+			let nota2 = Number(window.prompt("Digite a nota 2:"));
+			let media = (nota1 + nota2)/2;
+
+			let resultado = window.document.getElementById("resMedia");
+			resultado.innerHTML = `<p>Calculando a média final de ${nome}</p>`;
+			resultado.innerHTML += `<p>As notas foram ${nota1} e ${nota2}</p>`;
+			resultado.innerHTML += `<p>A média final é ${media}</p>`;
+		}
+	</script>
+
+
+	<h2>Calcular Equação: 6 + 20 - 12 x 2</h2>
+	<button onclick="calcularEq()">Calcular Equação 1</button>
+	<section id="resEq">
+		<p>O resultado é aqui</p>
+	</section>
+	<script type="text/javascript">
+		function calcularEq(){
+			//6 + 20 - 12 x 2
+			let equacao = 6 + 20 - 12 * 2;
+
+			let resultado = window.document.getElementById("resEq");
+			resultado.innerHTML = `<p>${equacao}</p>`;
+		}
+	</script>
+
+
+</body>
+</html>
