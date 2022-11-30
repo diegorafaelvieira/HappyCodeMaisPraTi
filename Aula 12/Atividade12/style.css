@@ -1,0 +1,24 @@
+	img{
+		width: 100%;
+	}
+
+	body {
+		color: #0D0D0D;
+		text-align: justify;
+		background-color: #F2D377;
+		margin-right: 15%;
+		margin-left: 15%;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	p {
+		font-style: italic;
+		font-size: 20px;
+	}
+
+	img {
+		text-align: center;
+	}
