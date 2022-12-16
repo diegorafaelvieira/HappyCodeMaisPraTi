@@ -20,7 +20,7 @@
 	bottom: 0;
 	width: 80px;
 	height: 112px;
-	animation: pipe-animation 1.5s infinite linear;
+	animation: pipe-animation 1.3s infinite linear;
 }
 
 @keyframes pipe-animation {
