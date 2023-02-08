@@ -1,0 +1,75 @@
+body
+{
+    background-color: #111 !important;
+}
+
+h1 {
+	color: #febe01 !important;
+}
+
+
+/* texto hero image */
+.hero_titulo {
+	font-size: 4.5rem;
+}
+
+.hero_desc {
+	font-size: 2rem;
+}
+
+.hero-text {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+.bgimage {
+	height: 100vh;
+	background: url('img/fundo.jpg'); 
+	background-size: cover;
+	position: relative;
+}
+
+/* Imagem sobre  */
+.imagemSobre {
+	width: 100%;
+}
+
+#sobre {
+	color: #b2b2b2;
+}
+
+/* Serviços */
+
+.servicesText.card {
+	height: 220px;
+	cursor: pointer;
+}
+
+.servicesIcon {
+	font-size: 36px;
+	text-align: center;
+	width: 100%;
+}
+
+.card-title {
+	text-align: center;
+	color: #111;
+}
+
+.card:hover .servicesIcon {
+	color: #fff;
+}
+
+.servicesText:hover {
+	border: 3px solid #fff;
+}
+
+.card-body {
+	background: #febe01;
+	text-align: center;
+}
+
